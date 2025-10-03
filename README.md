@@ -16,7 +16,7 @@ company wants to optimize its sales inventory, cost, and stocks
 ---
 
 ## Part 2: Dataset Overview
-Five CSV-based tables as begin_inventory, end_inventory, purchase, purchase_prices, sales. Used python-pandas, high-level data overview, extracted initial data for EDA using sqlite3, and ingested into the database using queries, data cleaning, and feature selection, performed Exploratory Data Analysis, identified patterns, trends, relevant answerable columns, and then extracted the final vendor summary analysis table through SQL queries.
+Six CSV-based tables as begin_inventory, end_inventory, purchase, purchase_prices, sales, invoice_payment. Sales with 1 crore+ records. Similarly, used python-pandas, high-level data overview, extracted initial data for EDA using sqlite3, and ingested into the database using queries, data cleaning, and feature selection, performed Exploratory Data Analysis, identified patterns, trends, relevant answerable columns, and then extracted the final vendor summary analysis table through SQL queries.
 
 
 ### Key Columns:
