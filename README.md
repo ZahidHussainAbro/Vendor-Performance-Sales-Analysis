@@ -1,26 +1,26 @@
 #  🛒 Vendor-Performance-Sales-Analysis (Year)
 Python+SQL+PowerBI Project
-company wants to optimize its sales inventory, cost, and stocks
-
 
 ## Part 1: Company Overview and Goal
 
 The company operates in the **retail and consumer goods industry**, distributing a variety of fast-moving products such as beverages, personal care, household goods, dairy, and snacks across physical stores and digital platforms.
+company wants to optimize its sales inventory, cost, and stocks
+
 
 ### Business Goals:
 - Analyze and extract insights from monthly, yearly stock inventory vendor trends to improve **stock inventory** and **sales performance**
 - Identify **top-performingvendors and underproming vendors** and **shipping segments**
-- Evaluate **channel performance** (online, in-store, distributor) to optimize marketing spend
+- Evaluate **Sales performance** (delayed stock, shipping inventory costs, unsold stock) to optimize inventory
 - Improve sales inventory with key **key performing vendors** and **top products**
 
 ---
 
 ## Part 2: Dataset Overview
-Five CSV-based tables as begin_inventory, end_inventory, purchase, purchase_prices, sales. Used python-pandas, high-level data overview, extracted initial data for EDA using sqlite3, and ingested into the database using queries, data cleaning, and feature selection, performed Exploratory Data Analysis, identified patterns, trends, relevant answerable columns, and then extracted final vendor summary analysis table through SQL queries.
+Five CSV-based tables as begin_inventory, end_inventory, purchase, purchase_prices, sales. Used python-pandas, high-level data overview, extracted initial data for EDA using sqlite3, and ingested into the database using queries, data cleaning, and feature selection, performed Exploratory Data Analysis, identified patterns, trends, relevant answerable columns, and then extracted the final vendor summary analysis table through SQL queries.
 
 
 ### Key Columns:
-VendorNumber,	VendorName,	Brand,	Description,	Purchase Price,	Actual Price,	Volume,	Total Purchase Quantity,	Total Purchase Dollars,	Total Sales Dollars,	Total Sales Price,	Total Sales Quantity,	Total Excise Tax,	FreightCost,	GrossProfit,	Profit Margin,	Stock Turnover,	Sales Purchase Ratio.
+Vendor Number,	Vendor Name,	Brand,	Description,	Purchase Price,	Actual Price,	Volume,	Total Purchase Quantity,	Total Purchase Dollars,	Total Sales Dollars,	Total Sales Price,	Total Sales Quantity,	Total Excise Tax,	Freight Cost,	Gross Profit,	Profit Margin,	Stock Turnover,	Sales Purchase Ratio.
 
 ### Supplementary Fields:
 - VendorName,	Brand Unique Number, Brand Description, Purchase Price,	Actual Price, Freight Cost
@@ -38,15 +38,14 @@ The dataset spans from **2024 to 2025**, enabling detailed month-over-month and 
 
 ### Key Dimensions:
 - Time (Month-Year)  
-- Product Category  
-- Customer Demographics (Age, Gender, Membership)  
-- Channel and Store Location  
+- Vendor Name 
+- Brand description (Actual Price, Total Excise Tax, Freight Cost, Total Purchase Dollars,	Total Sales Dollars) 
 
 ### Analysis Objectives:
 - Understand revenue trends over time  
-- Analyze category-level performance  
+- Analyze vendor-level performance  
 - Measure Month-over-Month (MoM) and Year-over-Year (YoY) growth  
-- Assess performance across customer segments and sales channels  
+- Assess performance across vendor Brands and Sales Turnover  
 - Derive insights to guide promotional strategy, budget allocation, and inventory planning
 
 ---
