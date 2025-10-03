@@ -9,7 +9,7 @@ company wants to optimize its sales inventory, cost, and stocks
 
 ### Business Goals:
 - Analyze and extract insights from monthly, yearly stock inventory vendor trends to improve **stock inventory** and **sales performance**
-- Identify **top-performingvendors and underproming vendors** and **shipping segments**
+- Identify **top-performing vendors and underperforming vendors** and **shipping segments**
 - Evaluate **Sales performance** (delayed stock, shipping inventory costs, unsold stock) to optimize inventory
 - Improve sales inventory with key **key performing vendors** and **top products**
 
