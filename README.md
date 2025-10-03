@@ -1,6 +1,6 @@
 #  🛒 Vendor-Performance-Sales-Analysis (Year)
 Python+SQL+PowerBI Project
-Comopany wants to optimize their sales inventory , cost and stocks
+company wants to optimize its sales inventory, cost, and stocks
 
 
 ## Part 1: Company Overview and Goal
@@ -8,41 +8,33 @@ Comopany wants to optimize their sales inventory , cost and stocks
 The company operates in the **retail and consumer goods industry**, distributing a variety of fast-moving products such as beverages, personal care, household goods, dairy, and snacks across physical stores and digital platforms.
 
 ### Business Goals:
-- Analyze and extract insights from monthly revenue trends to improve **sales forecasting** and **promotional planning**
-- Identify **top-performing product categories** and **customer segments**
+- Analyze and extract insights from monthly, yearly stock inventory vendor trends to improve **stock inventory** and **sales performance**
+- Identify **top-performingvendors and underproming vendors** and **shipping segments**
 - Evaluate **channel performance** (online, in-store, distributor) to optimize marketing spend
-- Improve engagement with key **membership groups** and **age segments**
+- Improve sales inventory with key **key performing vendors** and **top products**
 
 ---
 
 ## Part 2: Dataset Overview
+Five CSV-based tables as begin_inventory, end_inventory, purchase, purchase_prices, sales. Used python-pandas, high-level data overview, extracted initial data for EDA using sqlite3, and ingested into the database using queries, data cleaning, and feature selection, performed Exploratory Data Analysis, identified patterns, trends, relevant answerable columns, and then extracted final vendor summary analysis table through SQL queries.
 
-This is a transactional sales dataset, where each row represents a customer order.
 
 ### Key Columns:
-- Total Revenue  
-- Transaction Date  
+VendorNumber,	VendorName,	Brand,	Description,	Purchase Price,	Actual Price,	Volume,	Total Purchase Quantity,	Total Purchase Dollars,	Total Sales Dollars,	Total Sales Price,	Total Sales Quantity,	Total Excise Tax,	FreightCost,	GrossProfit,	Profit Margin,	Stock Turnover,	Sales Purchase Ratio.
 
 ### Supplementary Fields:
-- Store (Melbourne, Brisbane, Sydney)  
-- Product Category and Name  
-- Customer Segments (Age Group, Gender, Membership Level)  
-- Sales Channel (Online, In-store, Distributor)  
-
-The dataset spans from **2022 to 2023**, enabling detailed month-over-month and year-over-year analysis.
+- VendorName,	Brand Unique Number, Brand Description, Purchase Price,	Actual Price, Freight Cost
+The dataset spans from **2024 to 2025**, enabling detailed month-over-month and year-over-year analysis.
 
 ---
 
 ## Part 3: Analytical Framework
 
-### North Star Metric:
-- **Total Revenue**
-
 ### Supporting Metrics:
-- Number of Orders  
-- Average Order Value (AOV)  
-- MoM Growth %  
-- YoY Comparison  
+- Gross Profit  
+- Profit Margin 
+- Stock Turnover 
+- Sales Purchase Ratio  
 
 ### Key Dimensions:
 - Time (Month-Year)  
