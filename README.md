@@ -17,7 +17,9 @@ company wants to optimize its sales inventory, cost, and stocks
 
 ## Part 2: Dataset Overview
 Six CSV-based tables as begin_inventory, end_inventory, purchase, purchase_prices, sales, invoice_payment. Sales with 1 crore+ records. Similarly, used python-pandas, high-level data overview, extracted initial data for EDA using sqlite3, and ingested into the database using queries, data cleaning, and feature selection, performed Exploratory Data Analysis, identified patterns, trends, relevant answerable columns, and then extracted the final vendor summary analysis table through SQL queries.
-
+# Python Scripts
+- for automating workflow
+- Measuring query performance time, data processing, functionality monitoring
 
 ### Key Columns:
 Vendor Number,	Vendor Name,	Brand,	Description,	Purchase Price,	Actual Price,	Volume,	Total Purchase Quantity,	Total Purchase Dollars,	Total Sales Dollars,	Total Sales Price,	Total Sales Quantity,	Total Excise Tax,	Freight Cost,	Gross Profit,	Profit Margin,	Stock Turnover,	Sales Purchase Ratio.
