@@ -3,8 +3,8 @@ Python+SQL+PowerBI Project
 
 ## Part 1: Company Overview and Goal
 
-The company operates in the **retail and consumer goods industry**, distributing a variety of fast-moving products such as beverages, personal care, household goods, dairy, and snacks across physical stores and digital platforms.
-company wants to optimize its sales inventory, cost, and stocks
+The company operates in the **retail and wholesale industry**, distributing a variety of fast-moving products such as beverages, personal care, household goods, dairy, and snacks across physical stores and digital platforms.
+company wants to optimize its sales inventory, cost, and stocks. The company wants to ensure that they are not incurring losses due to inefficient prices, poor inventory turnover or vendor dependency.
 
 
 ### Business Goals:
@@ -13,7 +13,7 @@ company wants to optimize its sales inventory, cost, and stocks
 - Investigate **profitability** between top-performing and low-performing vendors
 - Evaluate **sales performance** (delayed stock, shipping inventory costs, unsold stock) to optimize inventory and the impact of **bulk purchasing** on unit costs
 - Assess **inventory turnover** to reduce holding costs and improve efficiency
-- Improve sales inventory with key **key performing vendors** and **top products**
+- Improve sales inventory with **key performing vendors** 
 
 ---
 
