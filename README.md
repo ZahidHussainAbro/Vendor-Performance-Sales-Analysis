@@ -1,4 +1,4 @@
-#  🛒 Vendor-Performance-Sales-Analysis (Year)
+#  🛒 Vendor-Performance-Sales-Analysis (2024-2025)
 Python+SQL+PowerBI Project
 
 ## Part 1: Company Overview and Goal
